@@ -4,6 +4,9 @@ MAINTAINER public@shawnzhong.com
 
 EXPOSE 63900
 EXPOSE 8080 
+EXPOSE 5000
+EXPOSE 5001
+EXPOSE 5002
 
 RUN apt-get update && \
     apt-get install -y openjdk-8-jdk python2.7 make sqlite3 dnsutils && \

@@ -31,4 +31,4 @@ def run():
 	# put your code here to request data and send data to the front end
 	return "So long, and thanks for all the fish."
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5002)
+    app.run(host="0.0.0.0", port=5002)
