@@ -31,4 +31,4 @@ ENV PATH="/usr/lib/jvm/java-se-8u40-ri/bin:/usr/lib/jvm/java-se-8u40-ri/jre/bin:
 # install flask for 3.9.3: JSONP
 RUN pip install flask
 
-ENTRYPOINT ["code-server", "--allow-http", "--no-auth", "--port=63900", "EXERCISES"]
+ENTRYPOINT ["code-server", "--allow-http", "--no-auth", "--port=63900"]
