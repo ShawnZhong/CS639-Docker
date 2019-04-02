@@ -5,8 +5,7 @@ all: xmlParser.java largeFile.xml
 clean: 
 	@echo removing parsers
 	rm *.class
-	rm largeFile
 	rm largeFile.xml
 
 largeFile.xml:
-	gcc largeFile.c -o largeFile && ./largeFile
+	./largeFile

@@ -2,7 +2,7 @@ FROM codercom/code-server
 
 MAINTAINER public@shawnzhong.com
 
-EXPOSE 8443
+EXPOSE 63900
 EXPOSE 8080 
 
 RUN apt-get update && \
@@ -11,4 +11,4 @@ RUN apt-get update && \
 
  RUN ln -s /usr/bin/python2.7 /usr/bin/python
 
-ENTRYPOINT ["code-server", "--allow-http", "--no-auth", "/root/project"]
+ENTRYPOINT ["code-server", "--allow-http", "--no-auth", "--port=63900", "EXERCISES"]

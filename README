@@ -1,7 +1,0 @@
-# How to run
-
-docker run -t -p 8443:8443 -p 8080:8080 -v "${PWD}/EXERCISES:/root/project" shawnzhong/cs639 CS639
-
-# How to build
-
-docker build .
