@@ -1,0 +1,2 @@
+/home/user/Desktop/EXERCISES/3.8.4_XML_Injections/Exercise_Two/Mitigation/ApproachTwo/readableFile.txt
+http://pages.cs.wisc.edu/~yih/phpExample/normal.txt

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE zzz[
+<!ENTITY xxe SYSTEM "file:///home/user/Desktop/EXERCISES/3.8.4_XML_Injections/Exercise_Two/Mitigation/ApproachTwo/readableFile.txt">
+]>
+<zzz>&xxe;</zzz>
+
+

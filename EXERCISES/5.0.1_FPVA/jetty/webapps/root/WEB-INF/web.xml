@@ -1,0 +1,46 @@
+<web-app>
+	<servlet>
+	  <servlet-name>Login</servlet-name>
+	  <servlet-class>security.servlets.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>Login</servlet-name>
+	  <url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>SubmitReview</servlet-name>
+	  <servlet-class>security.servlets.SubmitReviewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>SubmitReview</servlet-name>
+	  <url-pattern>/submitreview</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>Home</servlet-name>
+	  <servlet-class>security.servlets.HomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>Home</servlet-name>
+	  <url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>Delete</servlet-name>
+	  <servlet-class>security.servlets.DeleteReviewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>Delete</servlet-name>
+	  <url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>Root</servlet-name>
+	  <servlet-class>security.servlets.RootServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>Root</servlet-name>
+	  <url-pattern></url-pattern>
+	</servlet-mapping>
+</web-app>

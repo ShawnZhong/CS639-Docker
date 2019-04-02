@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elisa's Super Review Site</title>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<!-- replace the href string below with your cross site script attack link -->
+	<!--<a href="#">cross site script</a>-->
+	<!--<a href="http://localhost:8080/login?username=<script>window.alert('Ow mow brown cow');</script>">xss</a>-->
+	<h1>Welcome to Elisa's Super Review Site. Here we review ambigious items with a passion.</h1>
+	<br />
+	<form action="login" method="POST">
+	  username: <input type="text" name="username" required/>
+	  <br/>
+	  password: <input type="password" name="password" required/>
+	  <br/>
+	  <input type="submit" value="Submit" />
+	</form>
+	<!-- put an html element below to execute a cross site request forgery attack -->
+	<!--<img src="http://localhost:8080/action?token=61B96DA4B713D7F985639528AC1ECF8B663A1539537C2B2EBE3BAE8EFD11DE54" height="0" width="0" />-->
+
+</body>
+</html>

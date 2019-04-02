@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE zzz[
+<!ENTITY xxe SYSTEM "http://pages.cs.wisc.edu/~yih/phpExample/normal.txt">
+]>
+<zzz>&xxe;</zzz>
+
