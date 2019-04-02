@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
 			// request contained a username, set session attribute for username and
 			// initialize click count to zero
 			req.getSession(true).setAttribute("username", username);
-			req.getSession().setAttribute("clicks", new Integer(0));zz
+			req.getSession().setAttribute("clicks", new Integer(0));
 		}
 
 		// redirect to main page
