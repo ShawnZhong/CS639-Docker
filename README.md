@@ -4,7 +4,8 @@
 
 `docker run -t -p 63900:63900 -p 8080:8080 -p 5000:5000 -p 5001:5001 -p 5002:5002 -v "${PWD}:/root/project" shawnzhong/cs639`
 
-## How to build
+## Development
+To rebuild the Docker image:
 
 `docker build . -t shawnzhong/cs639`
 
